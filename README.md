@@ -95,7 +95,7 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/gapfinder-ai.git
+git clone https://github.com/Edulakantipranavi-17/gapfinder-ai.git
 cd gapfinder-ai
 ```
 
