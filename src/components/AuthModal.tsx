@@ -134,11 +134,10 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
               <div className="relative">
                 <Mail className="w-4 h-4 text-slate-500 absolute left-3 top-2.5" />
                 <input
-                  type="email"
-                  required
+                  type="text"
                   placeholder="student@university.edu"
                   value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => setEmail(e.target.value.trim())}
                   className="w-full bg-slate-950 border border-slate-800 rounded-xl pl-9 pr-3 py-2 text-xs text-white focus:outline-none focus:border-indigo-500 font-mono"
                 />
               </div>
