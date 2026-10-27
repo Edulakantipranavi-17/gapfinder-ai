@@ -1,0 +1,6 @@
+{
+  "name": "GapFinder AI",
+  "description": "Intelligent diagnostic learning app that maps syllabi, diagnoses student blind spots with citation-grounded quizzes, and generates personalized revision plans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
